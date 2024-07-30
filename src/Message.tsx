@@ -1,7 +1,8 @@
 function Message(){
   const name = "Manoj Solanki";
-  if (name)
-    return <h1> Hello {name} !!!</h1>;
+  const name1 = "Manoj";
+  if (name && name1)
+    return <h1> Hello {name} {name1} !!!</h1>;
   return <h1>Hello World !!!</h1>
 }
 
